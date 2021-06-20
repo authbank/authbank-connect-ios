@@ -19,6 +19,8 @@
 		03F0FEC9267FA9720077DBAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03F0FECB267FA9730077DBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F0FECE267FA9730077DBAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03F0FED6267FADCE0077DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		03F0FED8267FADEA0077DBAA /* AuthBankConnect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AuthBankConnect.xcframework; path = "../../../../../../Library/Developer/Xcode/DerivedData/AuthBankConnectSample-fqphhqwvadvdcscrdiqaeraxxjbe/SourcePackages/checkouts/authbank-connect-ios/Sources/AuthBankConnect.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			children = (
 				03F0FEC6267FA9720077DBAA /* AuthBankConnectSample */,
 				03F0FEC5267FA9720077DBAA /* Products */,
+				03F0FED7267FADEA0077DBAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +54,7 @@
 		03F0FEC6267FA9720077DBAA /* AuthBankConnectSample */ = {
 			isa = PBXGroup;
 			children = (
+				03F0FED6267FADCE0077DBAA /* Info.plist */,
 				03F0FEC7267FA9720077DBAA /* AuthBankConnectSampleApp.swift */,
 				03F0FEC9267FA9720077DBAA /* ContentView.swift */,
 				03F0FECB267FA9730077DBAA /* Assets.xcassets */,
@@ -65,6 +69,14 @@
 				03F0FECE267FA9730077DBAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03F0FED7267FADEA0077DBAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F0FED8267FADEA0077DBAA /* AuthBankConnect.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +123,9 @@
 				Base,
 			);
 			mainGroup = 03F0FEBB267FA9720077DBAA;
+			packageReferences = (
+				03F0FED5267FAD280077DBAA /* XCRemoteSwiftPackageReference "authbank-connect-ios" */,
+			);
 			productRefGroup = 03F0FEC5267FA9720077DBAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,6 +287,10 @@
 				DEVELOPMENT_TEAM = GQ7ZUC23QT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthBankConnectSample/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = AuthBankConnectSample;
+				INFOPLIST_KEY_CFBundleName = AuthBankConnectSample;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +321,10 @@
 				DEVELOPMENT_TEAM = GQ7ZUC23QT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthBankConnectSample/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = AuthBankConnectSample;
+				INFOPLIST_KEY_CFBundleName = AuthBankConnectSample;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +366,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03F0FED5267FAD280077DBAA /* XCRemoteSwiftPackageReference "authbank-connect-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/authbank/authbank-connect-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 03F0FEBC267FA9720077DBAA /* Project object */;
 }
