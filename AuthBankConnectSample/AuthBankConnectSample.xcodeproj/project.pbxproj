@@ -20,7 +20,6 @@
 		03F0FECB267FA9730077DBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F0FECE267FA9730077DBAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03F0FED6267FADCE0077DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		03F0FED8267FADEA0077DBAA /* AuthBankConnect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AuthBankConnect.xcframework; path = "../../../../../../Library/Developer/Xcode/DerivedData/AuthBankConnectSample-fqphhqwvadvdcscrdiqaeraxxjbe/SourcePackages/checkouts/authbank-connect-ios/Sources/AuthBankConnect.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +73,6 @@
 		03F0FED7267FADEA0077DBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03F0FED8267FADEA0077DBAA /* AuthBankConnect.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

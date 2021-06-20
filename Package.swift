@@ -12,7 +12,7 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "AuthBankConnect",
-                      url: "https://github.com/authbank/authbank-connect-ios/archive/refs/tags/0.0.2.zip",
-                      checksum: "3e110f1c2767789550ad6df1bb1d6b40811e2a2e43f6d509097674fb7d04aaa9")
+                      url: "https://github.com/authbank/authbank-connect-ios/archive/refs/tags/0.0.3.zip",
+                      checksum: "395129f3d898c584c1c826c1ed89b8c62093d003dfafdfc47ffce129d1c4247c")
     ]
 )
