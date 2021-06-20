@@ -124,7 +124,6 @@
 			);
 			mainGroup = 03F0FEBB267FA9720077DBAA;
 			packageReferences = (
-				03F0FED5267FAD280077DBAA /* XCRemoteSwiftPackageReference "authbank-connect-ios" */,
 			);
 			productRefGroup = 03F0FEC5267FA9720077DBAA /* Products */;
 			projectDirPath = "";
@@ -366,17 +365,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		03F0FED5267FAD280077DBAA /* XCRemoteSwiftPackageReference "authbank-connect-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/authbank/authbank-connect-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 03F0FEBC267FA9720077DBAA /* Project object */;
 }
