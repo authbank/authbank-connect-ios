@@ -1,0 +1,11 @@
+framework module AuthBankConnect {
+  umbrella header "AuthBankConnect.h"
+
+  export *
+  module * { export * }
+}
+
+module AuthBankConnect.Swift {
+    header "AuthBankConnect-Swift.h"
+    requires objc
+}
