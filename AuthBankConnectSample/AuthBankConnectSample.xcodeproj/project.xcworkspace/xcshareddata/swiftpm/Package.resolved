@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "authbank-connect-ios",
+        "repositoryURL": "https://github.com/authbank/authbank-connect-ios",
+        "state": {
+          "branch": "main",
+          "revision": "085804a4d4119695856316eb3aee55ca1fd26423",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
