@@ -4,7 +4,6 @@
 //
 //  Created by Amarildo Joao Custodio Lucas on 20/06/21.
 //
-
 import AuthBankConnect
 import SwiftUI
 
