@@ -7,3 +7,5 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 AuthBankConnect.xcframework
 AuthBankConnect.xcframework.zip
+Configuration.swift
+AuthBankParentView.swift

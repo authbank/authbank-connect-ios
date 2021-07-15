@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0303743E26825B2D002884F0 /* AuthBankParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303743D26825B2D002884F0 /* AuthBankParentView.swift */; };
+		0303744026825B78002884F0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303743F26825B78002884F0 /* Configuration.swift */; };
+		03C78F1F268B9CDF00699E44 /* AuthBankConnect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C78F1E268B9CDF00699E44 /* AuthBankConnect.xcframework */; };
+		03C78F20268B9CDF00699E44 /* AuthBankConnect.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03C78F1E268B9CDF00699E44 /* AuthBankConnect.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		03F0FEC8267FA9720077DBAA /* AuthBankConnectSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0FEC7267FA9720077DBAA /* AuthBankConnectSampleApp.swift */; };
 		03F0FECA267FA9720077DBAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F0FEC9267FA9720077DBAA /* ContentView.swift */; };
 		03F0FECC267FA9730077DBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F0FECB267FA9730077DBAA /* Assets.xcassets */; };
 		03F0FECF267FA9730077DBAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F0FECE267FA9730077DBAA /* Preview Assets.xcassets */; };
-		03F0FEDE267FBDD60077DBAA /* AuthBankConnect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0FEDD267FBDD60077DBAA /* AuthBankConnect.xcframework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		03D5E4F6268112FC00E7966E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03C78F20268B9CDF00699E44 /* AuthBankConnect.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0303743D26825B2D002884F0 /* AuthBankParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBankParentView.swift; sourceTree = "<group>"; };
+		0303743F26825B78002884F0 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		03C78F1E268B9CDF00699E44 /* AuthBankConnect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AuthBankConnect.xcframework; path = "../../authbank-connect-ios-framework/build/AuthBankConnect.xcframework"; sourceTree = "<group>"; };
 		03F0FEC4267FA9720077DBAA /* AuthBankConnectSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthBankConnectSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0FEC7267FA9720077DBAA /* AuthBankConnectSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBankConnectSampleApp.swift; sourceTree = "<group>"; };
 		03F0FEC9267FA9720077DBAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03F0FECB267FA9730077DBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F0FECE267FA9730077DBAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03F0FED6267FADCE0077DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		03F0FEDD267FBDD60077DBAA /* AuthBankConnect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AuthBankConnect.xcframework; path = ../../../../../../Downloads/AuthBankConnect.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F0FEDE267FBDD60077DBAA /* AuthBankConnect.xcframework in Frameworks */,
+				03C78F1F268B9CDF00699E44 /* AuthBankConnect.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +75,12 @@
 		03F0FEC6267FA9720077DBAA /* AuthBankConnectSample */ = {
 			isa = PBXGroup;
 			children = (
-				03F0FED6267FADCE0077DBAA /* Info.plist */,
-				03F0FEC7267FA9720077DBAA /* AuthBankConnectSampleApp.swift */,
-				03F0FEC9267FA9720077DBAA /* ContentView.swift */,
 				03F0FECB267FA9730077DBAA /* Assets.xcassets */,
+				03F0FEC7267FA9720077DBAA /* AuthBankConnectSampleApp.swift */,
+				0303743D26825B2D002884F0 /* AuthBankParentView.swift */,
+				0303743F26825B78002884F0 /* Configuration.swift */,
+				03F0FEC9267FA9720077DBAA /* ContentView.swift */,
+				03F0FED6267FADCE0077DBAA /* Info.plist */,
 				03F0FECD267FA9730077DBAA /* Preview Content */,
 			);
 			path = AuthBankConnectSample;
@@ -76,7 +97,7 @@
 		03F0FED7267FADEA0077DBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03F0FEDD267FBDD60077DBAA /* AuthBankConnect.xcframework */,
+				03C78F1E268B9CDF00699E44 /* AuthBankConnect.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,6 +112,7 @@
 				03F0FEC0267FA9720077DBAA /* Sources */,
 				03F0FEC1267FA9720077DBAA /* Frameworks */,
 				03F0FEC2267FA9720077DBAA /* Resources */,
+				03D5E4F6268112FC00E7966E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,7 +148,6 @@
 			);
 			mainGroup = 03F0FEBB267FA9720077DBAA;
 			packageReferences = (
-				038AAD85267FC2C80083298E /* XCRemoteSwiftPackageReference "authbank-connect-ios" */,
 			);
 			productRefGroup = 03F0FEC5267FA9720077DBAA /* Products */;
 			projectDirPath = "";
@@ -156,6 +177,8 @@
 			files = (
 				03F0FECA267FA9720077DBAA /* ContentView.swift in Sources */,
 				03F0FEC8267FA9720077DBAA /* AuthBankConnectSampleApp.swift in Sources */,
+				0303744026825B78002884F0 /* Configuration.swift in Sources */,
+				0303743E26825B2D002884F0 /* AuthBankParentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,17 +391,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		038AAD85267FC2C80083298E /* XCRemoteSwiftPackageReference "authbank-connect-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/authbank/authbank-connect-ios";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 03F0FEBC267FA9720077DBAA /* Project object */;
 }
